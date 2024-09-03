@@ -14,5 +14,6 @@ public class P5_chack_vowel_Consonent {
         char c = sc.next().charAt(0);
                                 // here this is the indexing of the element to take //
         checkVorC(c);
+        sc.close();
     }
 }
