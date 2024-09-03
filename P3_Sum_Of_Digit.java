@@ -12,5 +12,6 @@ public class P3_Sum_Of_Digit {
             num = num / 10;
         }
         System.out.println(sum);
+        sc.close();
     }
 }
