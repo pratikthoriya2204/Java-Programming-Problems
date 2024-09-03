@@ -3,8 +3,8 @@ public class P3_Sum_Of_Digit {
     public static void main(String[] args) {
         int sum=0,num,digit;
 
-        Scanner sc = new Scanner(System.in);
-        num = sc.nextInt();
+        Scanner scanner = new Scanner(System.in);
+        num = scanner.nextInt();
 
         while (num > 0) {
             digit = num % 10;
@@ -12,6 +12,6 @@ public class P3_Sum_Of_Digit {
             num = num / 10;
         }
         System.out.println(sum);
-        sc.close();
+        scanner.close();
     }
 }
